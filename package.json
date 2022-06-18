@@ -1,0 +1,27 @@
+{
+  "name": "redux-vs-mobx",
+  "version": "1.0.0",
+  "description": "redux/mobx summary ",
+  "main": "index.js",
+  "repository": "https://github.com/LYF620/redux-vs-mobx.git",
+  "author": "刘怡帆 <liuyifan620@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/mobx-react",
+    "packages/redux-react"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "rimraf": "^3.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "clean": "rimraf node_modules"
+  }
+}

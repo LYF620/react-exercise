@@ -1,2 +1,3 @@
-# redux-vs-mobx
+# 学习总结 Redux Mobx
+
 mobx + redux Learn
