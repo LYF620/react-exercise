@@ -9,7 +9,8 @@
   "private": true,
   "workspaces": [
     "packages/mobx-react",
-    "packages/redux-react"
+    "packages/redux-react",
+    "packages/skeleton-react"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
